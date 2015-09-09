@@ -9,7 +9,7 @@ window.onload = function() {
 	var imgWidth = imgs[0].offsetWidth;
 	
 	//设置掩藏门体露出的宽度
-	var exposeWidth = 100;
+	var exposeWidth = 140;
 	
 	//设置容器总宽度
 	var boxWidth = imgWidth + (imgs.length - 1) * exposeWidth;
