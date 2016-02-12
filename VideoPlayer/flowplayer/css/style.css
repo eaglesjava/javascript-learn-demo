@@ -1,0 +1,157 @@
+body{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+header{
+  border: 1px solid #eee;
+  margin-bottom: 20px;  
+}
+header h5{
+  font-family: "omnes-pro",sans-serif;
+  font-weight: normal;
+  color: #ccc;
+}
+
+.ninghao-player{
+  background-color: #000;
+  
+  /*
+  -webkit-background-size: 50%;
+  background-size: 50%;
+  background-position: 50% -100%;
+  
+  -webkit-transition: all 1s 0.5s;
+  -moz-transition: all 1s 0.5s;
+  -ms-transition: all 1s 0.5s;
+  -o-transition: all 1s 0.5s;
+  transition: all 1s 0.5s;
+  */
+}
+
+.is-poster{
+  /*
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-position: 50% 50%;
+  */
+}
+
+.is-mouseover{
+  /*
+  opacity:  .8;
+  -webkit-background-size:  103%;
+  background-size: 103%;
+  */
+}
+
+.ninghao-player .fp-ratio{
+  padding-top: 42.5%;
+}
+
+/*播放列表的样式*/
+
+.fp-playlist a{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.fp-playlist{
+  position: absolute;
+  bottom: -105px;
+  width: 100%;
+  text-align: center;
+}
+
+.fp-playlist .is-active{
+  border: 1px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+/*前一个与下一个按钮*/
+
+.fp-prev, .fp-next{
+  position: absolute;
+  bottom: 50%;
+  font-family: sans-serif;
+  font-size: 35px;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  line-height: 25px;
+  text-align: center;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.is-mouseover .fp-prev, .is-mouseover .fp-next{
+  color: #000;
+  text-decoration: none;
+}
+
+.fp-prev{
+  left: -40px;
+}
+
+.fp-next{
+  right: -40px;
+}
+
+/* 字幕的样式 */
+
+.player-1 .fp-subtitle p{
+  font-size: 25px;
+  background: #0482ff;
+  opacity: 0.8;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* 自定义播放器皮肤 */
+
+ .flowplayer { background-color: #222; background-size: cover; max-width: 800px; }
+ .flowplayer .fp-controls { background-color: rgba(35, 35, 35, 1)}
+ .flowplayer .fp-timeline { background-color: rgba(63, 63, 63, 1)}
+ .flowplayer .fp-progress { background-color: rgba(27, 126, 90, 1)}
+ .flowplayer .fp-buffer { background-color: rgba(50, 50, 50, 1)}
+ .flowplayer { background-image: url(http://farm5.staticflickr.com/4117/4870052004_c0997bcf8d_b.jpg)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
