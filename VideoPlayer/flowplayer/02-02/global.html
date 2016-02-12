@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowplayer 全局设置</title>
+  <!-- 1. jQuery 库 -->
+  <script src="http://7xqnp4.com2.z0.glb.qiniucdn.com/jquery.min.js"></script>
+  <!-- 2. flowplayer 播放器 -->
+  <script src="../js/flowplayer-6.0.5/flowplayer.js"></script>
+  <!-- 3. 播放器皮肤（ 外观 ） -->
+  <link rel="stylesheet" href="../js/flowplayer-6.0.5/skin/minimalist.css">
+  <script>
+    flowplayer.conf.volume = "0.8";
+    flowplayer.conf.fullscreen = false;
+  </script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap-responsive.css">
+  <!-- 自定义样式表 -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h5>Global Configuration</h5>
+    </div>
+  </header>
+  <div class="container">
+    <!-- 播放器开始 -->
+    <div class="ninghao-player">
+      <video poster="../video/croods-02.jpg">
+        <source type="video/mp4" src="../video/croods-02.mp4">
+      </video>
+    </div>
+    <!-- 播放器结束 -->
+    
+    <!-- 播放器开始 -->
+    <div class="ninghao-player">
+      <video poster="../video/croods-03.jpg">
+        <source type="video/mp4" src="../video/croods-03.mp4">
+      </video>
+    </div>
+    <!-- 播放器结束 -->
+  </div>
+  <script>
+    $( function () {
+      $( ".ninghao-player" ).flowplayer();
+      
+    });
+  </script>
+</body>
+</html>
+
