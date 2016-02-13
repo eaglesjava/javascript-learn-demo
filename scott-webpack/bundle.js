@@ -42,9 +42,18 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var name = __webpack_require__(1);
+
+	document.getElementById('app').textContent = '安装webpack与准备项目' + name;
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	document.getElementById('app').textContent = '安装webpack与准备项目';
+	module.exports = "zhanwanbao.com";
+
 
 /***/ }
 /******/ ]);
